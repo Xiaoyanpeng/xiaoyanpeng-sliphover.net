@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*科e互联特效基本框架CSS*/
+body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, form, select, fieldset, table, td, div, input {margin:0;padding:0;-webkit-text-size-adjust: none}
+h1, h2, h3, h4, h5, h6{font-size:12px;font-weight:normal}
+body>div{margin:0 auto}
+div {text-align:left}
+a img {border:0}
+body { color: #333; text-align: center; font: 12px "微软雅黑";background-color: #e4e4e4; }
+ul, ol, li {list-style-type:none;vertical-align:0}
+a {outline-style:none;color:#535353;text-decoration:none}
+a:hover { color: #D40000; text-decoration: none}
+/* 效果CSS开始 */
+a:hover { text-decoration: underline; }
+h3 { font-size: 25px; color: #fff; text-align:center }
+.slip { width: 520px; height: auto; margin: 0px auto; }
+.slip ul li { width: 250px; height: 250px; float: left; margin-right: 20px; margin-bottom: 20px; }
+.slip ul li:nth-child(2n) { margin-right: 0; }
+img{
+    width: 100%;
+}
+/* 效果CSS结束 */
+h1{
+    font-size: 20px;
+    line-height: 5;
+    color: #f90;
+}

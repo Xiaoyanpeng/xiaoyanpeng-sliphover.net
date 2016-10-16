@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery鼠标滑过图片遮罩动画sliphover.js插件</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <h1>jQuery鼠标滑过图片遮罩动画sliphover.js插件</h1>
+<!--效果html开始-->
+  <div class="slip" id="hover">
+    <ul>
+      <li> <a href=""> <img src="images/1.jpg" title="<h3>马尔代夫</h3>" /> </a> </li>
+      <li> <a href=""> <img src="images/1.jpg" title="<h3>三亚</h3>" /> </a> </li>
+      <li> <a href=""> <img src="images/1.jpg" title="<h3>巴黎</h3>" /> </a> </li>
+      <li> <a href=""> <img src="images/1.jpg" title="<h3>厦门</h3>" /> </a> </li>
+    </ul>
+  </div>
+  <script type="text/javascript" src="js/jquery.1.7.2.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.sliphover.min.js"></script> 
+  <script type="text/javascript">
+  $(document).ready(function(e) {
+      $('#hover').sliphover({
+      backgroundColor:'rgba(0,0,0,0.5)',
+      target:"img",
+      caption:"title",
+      duration:"normal",//动画的持续时间,fast,slow
+      fontColor:"#fff",
+      textAlign:"center",
+      verticalMiddle:!0,
+      backgroundColorAttr:null,
+      reverse:!1,
+      height:"100%",
+      withLink:!0
+    });
+  });
+  </script>
+<!--效果html结束-->
+</body>
+</html>
